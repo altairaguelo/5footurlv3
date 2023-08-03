@@ -38,11 +38,11 @@ class Form extends React.Component {
 
         //If the user has input a preferred alias then we use it, if not, we generate one
         var generatedKey = nanoid(5);
-        var generatedURL = "5footurl.onrender.com/" + generatedKey
+        var generatedURL = "fivefooturl.onrender.com/" + generatedKey
 
         if (this.state.preferredAlias !== '') {
             generatedKey = this.state.preferredAlias
-            generatedURL = "5footurl.onrender.com/" + this.state.preferredAlias
+            generatedURL = "fivefooturl.onrender.com/" + this.state.preferredAlias
         }
 
         const db = getDatabase();
@@ -175,7 +175,7 @@ class Form extends React.Component {
                         <label htmlFor="basic-url">Your 5footurl:</label>
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
-                                <span className="input-group-text">5footurl.onrender.com/</span>
+                                <span className="input-group-text">fivefooturl.onrender.com/</span>
                             </div>
                             <input
                                 id="preferredAlias"
