@@ -145,7 +145,7 @@ class Form extends React.Component {
         return (
             <div className="container">
                 <form autoComplete="off">
-                    <h3>5footurl</h3>
+                    <h3>5footurl!</h3>
 
                     <div className="form-group">
                         <label>Enter the long URL</label>
@@ -172,7 +172,7 @@ class Form extends React.Component {
                     </div>
 
                     <div className="form-group">
-                        <label htmlFor="basic-url">Your 5footurl</label>
+                        <label htmlFor="basic-url">Your 5footurl:</label>
                         <div className="input-group mb-3">
                             <div className="input-group-prepend">
                                 <span className="input-group-text">5footurl.onrender.com/</span>
@@ -207,7 +207,7 @@ class Form extends React.Component {
                                 </div> :
                                 <div>
                                     <span className="visually-hidden spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                                    <span>5footurl</span>
+                                    <span>5footurl!</span>
                                 </div>
                         }
 
